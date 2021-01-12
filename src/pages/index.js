@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import styles from '../styles/index.module.css';
 
 const index = () => {
   return (
@@ -8,15 +9,11 @@ const index = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="text-center bg-gray-100">
-          <h1>This is index</h1>
+        <div className="text-center">
+          <p className="text-4xl">This is index</p>
+          <p className={styles.red +' text-lg'}>This is Red Text</p>
         </div>
       </main>
-      <style jsx>{`
-      .container{
-        width: 100%;
-      }
-      `}</style>
     </div>
   );
 };
