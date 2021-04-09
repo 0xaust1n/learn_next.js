@@ -1,0 +1,14 @@
+/* Div level only */
+.infoBox p,
+.infoBox button {
+	font-size: 1rem;
+	text-align: center;
+}
+/* Color Scope*/
+.red {
+	color: #ff0000;
+}
+
+.gray {
+	background-color: #eeeeee;
+}
